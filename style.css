@@ -1,0 +1,238 @@
+/* styles.css */
+
+/* Reset default margin and padding for the entire page */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #fff; /* Set your desired background color */
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  /* Style the navigation menu */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the logo */
+  .logo img {
+    height: 50px; /* Set the desired height for your logo */
+    /* Add any additional styles like margin or padding as needed */
+  }
+  
+  /* Style the menu items */
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px; /* Adjust the spacing between menu items */
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333; /* Set the desired color for menu links */
+    font-weight: bold;
+    /* Add any additional styles like font size or hover effects as needed */
+  }
+  
+  /* reservation starts */
+  /* styles.css */
+
+  /* our itms start */
+  /* styles.css */
+
+#menu {
+    padding: 40px;
+    background-color: #f9f9f9; /* Set your desired background color */
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .menu-item {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  
+  .item-image img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+  .item-details h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .item-details p {
+    margin-bottom: 10px;
+  }
+  
+  .item-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Set your desired color for the price */
+  }
+  
+#reservation {
+    background-color: #f9f9f9; /* Set your desired background color */
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  form input,
+  form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    height: 120px; /* Set the desired height for the textarea */
+  }
+  
+  button {
+    background-color: #333; /* Set your desired button color */
+    color: #fff; /* Set your desired button text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555; /* Set your desired button hover color */
+  }
+  
+
+
+  /* styles.css */
+
+#contact {
+    background-color: #f9f9f9; /* Set your desired background color */
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .social-media {
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #333; /* Set your desired color for social icons */
+  }
+  /* styles.css */
+
+  .social-icon i:hover {
+    color: green; /* Set the desired color for social icons on hover */
+  }
+  
+  .terms-conditions {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .terms-conditions a {
+    color: #333; /* Set your desired color for terms and conditions link */
+  }
+  
+  /* footer starts */
+  /* styles.css */
+
+footer {
+    background-color: #333; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo img {
+    height: 50px;
+  }
+  
+  .footer-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-menu li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-social .social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    font-size: 14px;
+  }
+  

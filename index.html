@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Restaurant Name</title>
+  <!-- fontawesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Add your CSS stylesheet link here -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="logo.png" alt="Your Restaurant Logo"></a>
+      </div>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- our items starts -->
+  <section id="menu">
+    <div class="container">
+      <div class="menu-item">
+        <div class="item-image">
+          <img src="images/chiken-tikka.avif" alt="item 1">
+        </div>
+        <div class="item-details">
+          <h3>Item 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum finibus, cursus ligula eget, lobortis ipsum.</p>
+          <div class="item-price">$9.99</div>
+        </div>
+      </div>
+      
+      <div class="menu-item">
+        <div class="item-image">
+          <img src="images/mutton.webp" alt="Item 2">
+        </div>
+        <div class="item-details">
+          <h3>Item 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum finibus, cursus ligula eget, lobortis ipsum.</p>
+          <div class="item-price">$12.99</div>
+        </div>
+      </div>
+        
+      <div class="menu-item">
+        <div class="item-image">
+          <img src="images/mutton.webp" alt="Item 2">
+        </div>
+        <div class="item-details">
+          <h3>Item 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae ipsum finibus, cursus ligula eget, lobortis ipsum.</p>
+          <div class="item-price">$12.99</div>
+        </div>
+      </div>
+  
+      <!-- Add more menu items as needed -->
+      
+    </div>
+  </section>
+  
+  <!-- reservation starts -->
+  <section id="reservation">
+    <div class="container">
+      <h2>Make a Reservation</h2>
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Phone" required>
+        <input type="date" placeholder="Date" required>
+        <input type="time" placeholder="Time" required>
+        <textarea placeholder="Special Requests"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <p><strong>Location:</strong> Rajibpur, Kurigram</p>
+        <div class="social-media">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <p class="terms-conditions">By contacting us, you agree to our <a href="terms.html" target="_blank">Terms and Conditions</a>.</p>
+    </div>
+  </section>
+<!--   footer starts -->
+<footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="logo.png" alt="Logo">
+        </div>
+        <div class="footer-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Reservation</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Your Restaurant. All rights reserved. | Terms of Service | Privacy Policy</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Rest of your website content goes here -->
+</body>
+</html>
